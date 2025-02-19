@@ -1,5 +1,5 @@
 import itemClick from './ItemOpen.js';
-const api = 'https://api.github.com/repos/hygorqc/instagram-dio/issues';
+const api = 'https://api.github.com/repos/hygorqc/git-blog/issues';
 
 async function buscarIssues(api) {
   const dados = await fetch(api);
